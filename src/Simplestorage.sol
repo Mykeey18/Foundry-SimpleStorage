@@ -17,6 +17,7 @@ contract SimpleStorage {
     // let's talk about array and struct
     uint256[] listOfFavoriteNumbers;
     // In solidity you can create your own favorite list by creating a struct
+
     struct person {
         uint256 myFavoriteNumber;
         string name;
