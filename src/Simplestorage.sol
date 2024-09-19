@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.24;
+pragma solidity ^0.8.18;
 
 contract SimpleStorage {
     uint256 public favoriteNumber; // The default visibility of the `favoriteNumber` variable is internal unless stated if it is private, public, extrenal or internal
